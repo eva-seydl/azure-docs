@@ -115,6 +115,8 @@ The following table lists optional URLs that your Azure virtual machines can hav
 >
 >For a list of Office-related URLs, including required Azure Active Directory-related URLs, see [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 >
+>When leveraging Azure Monitor and Log Analytics you migt want to review the [list of URLs to be whitelisted here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses#log-analytics-portal)
+>
 >You must use the wildcard character (*) for URLs involving service traffic. If you prefer to not use * for agent-related traffic, here's how to find the URLs without wildcards:
 >
 >1. Register your virtual machines to the Windows Virtual Desktop host pool.
